@@ -11,6 +11,9 @@ class AppColors {
   static const Color c1E1F20 = Color(0xFF1E1F20);
   static const Color c8F92A1 = Color(0xFF8F92A1);
   static const Color c030319 = Color(0xFF030319);
+  static const Color c525FE1 = Color(0xFF525FE1);
+  static const Color c3F3F3F = Color(0xFF3F3F3F);
+  static const Color cFFA41B = Color(0xFFFFA41B);
 
   static const LinearGradient splashBackground = LinearGradient(
     begin: Alignment.topLeft,

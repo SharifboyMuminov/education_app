@@ -1,3 +1,4 @@
+import 'package:education_app/screens/home/home_screen.dart';
 import 'package:education_app/screens/sign_up/widget/auth_input.dart';
 import 'package:education_app/screens/widget/global_button.dart';
 import 'package:education_app/utils/app_colors.dart';
@@ -138,7 +139,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   40.getH(),
                   GlobalButton(
                     title: "Create Account",
-                    onTab: () {},
+                    onTab: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return const HomeScreen();
+                          },
+                        ),
+                      );
+                    },
                   ),
                   70.getH(),
                   Row(
