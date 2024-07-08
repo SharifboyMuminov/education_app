@@ -12,12 +12,14 @@ class AuthInput extends StatelessWidget {
     required this.onChanged,
     required this.iconPath,
     this.onTabEye,
+    this.obscureText = false,
   });
 
   final String label;
   final ValueChanged<String> onChanged;
   final String iconPath;
   final VoidCallback? onTabEye;
+  final bool obscureText;
 
   @override
   Widget build(BuildContext context) {
@@ -33,6 +35,7 @@ class AuthInput extends StatelessWidget {
         ),
         5.getH(),
         TextFormField(
+          obscureText: obscureText,
           style: AppTextStyle.interMedium.copyWith(
             fontSize: 16.sp,
             color: AppColors.c030319,

@@ -16,7 +16,7 @@ class GlobalButton extends StatelessWidget {
       width: double.infinity,
       child: TextButton(
         style: TextButton.styleFrom(
-          padding: EdgeInsets.symmetric(vertical: 10.he),
+          padding: EdgeInsets.symmetric(vertical: 12.he),
           backgroundColor: AppColors.c1B08DA,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8.r),
